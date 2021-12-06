@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Viewed",
+    "slug": "Viewed",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.12",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#122024"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.SocialApp.Viewed",
+      "buildNumber": "1.0.10"
+    },
+    "android": {
+      "package": "com.SocialApp.Viewed",
+      "versionCode": 4
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Viewed",
+  "name": "viewedv3"
+}
